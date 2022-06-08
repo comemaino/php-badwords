@@ -26,6 +26,7 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
   <p>
     <?php 
     $censored_paragraph = str_replace($bad_word, "***", $paragraph);
+    echo strlen($censored_paragraph);
     echo $censored_paragraph;
     ?>
   </p>
